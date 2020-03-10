@@ -169,7 +169,7 @@ namespace AWSSDK.Examples.ChessGame
             DontDestroyOnLoad(gameObject);
             // Initialize AWS SDK
             UnityInitializer.AttachToGameObject(gameObject);
-            // Keep track of this users SNS Endpoing in DynamoDB
+            // Keep track of this user's SNS Endpoint in DynamoDB
             RegisterDeviceAsync();
             // Initialize AnalyticsManager so that we get the side effect of it firing at start event.
             _analyticsManager = AnalyticsManager;
